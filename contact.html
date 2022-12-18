@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="static/style.css" rel="stylesheet">
+        <script src="static/script.js"></script>
+
+        <title>Rasool Hashemi</title>
+    </head>
+    
+    <body>
+        <div class="container">
+             <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact Me</a>
+                </li>
+            </ul>
+            <h1>Rasool Hashemi</h1>
+            <h2>Contact Me</h2>
+            <br>
+            <form class="form" onsubmit="sendMessage(); return false;">
+                <div class="alert alert-danger">
+                    <button type="button" class="btn btn-danger" onclick="hide()">&times;</button>
+                    Please fill all the fileds.
+                </div>
+                <div class="form-group">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-control" placeholder="Name" id="name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" placeholder="Email" id="email">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea class="form-control" row="3" id="message" placeholder="Message"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-dark btn-lg">Send</button>
+            </form>
+            <footer class="footer text-muted">
+                By <a href="https://hawshemi.com/" target="_blank">Hawshemi</a>
+            </footer>
+        </div>
+    </body>
+</html>
