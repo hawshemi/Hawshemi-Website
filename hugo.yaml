@@ -1,0 +1,83 @@
+title: Hawshemi
+
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  fa:
+    languageName: فارسی
+    weight: 2
+    languageDirection: rtl
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      pageRef: /
+      weight: 1
+    - identifier: contact
+      name: Contact
+      pageRef: /contact
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: Email
+      weight: 4
+      url: "mailto:contact@hawshemi.com"
+      params:
+        icon: email
+    - name: LinkedIn
+      weight: 5
+      url: "https://linkedin.com/hawshemi"
+      params:
+        icon: linkedin
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/hawshemi"
+      params:
+        icon: github
+    - name: X
+      weight: 7
+      url: "https://x.com/hawshemi"
+      params:
+        icon: x
+    - name: Instagram
+      weight: 8
+      url: "https://instagram.com/rhawshemi"
+      params:
+        icon: instagram
+
+params:
+  theme:
+    default: system
+    displayToggle: true
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  footer:
+    displayTitle: true
+    displayCopyright: true
+    displayPoweredBy: false

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20.833px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Lato;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image id="Background" width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABj0lEQVRYhWJkYGD4zzBQgIGBAQAAAP//YhpIyxkYGBgAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8aWAcwMDAAAAAA//8DACESAT/yiCJtAAAAAElFTkSuQmCC"/>
+  <text id="RH" class="cls-1" x="15.704" y="23.18"><tspan x="15.704">RH</tspan></text>
+</svg>
